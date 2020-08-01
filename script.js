@@ -31,6 +31,6 @@ const updateTime = (targetDate) => {
   secondsElement.innerText = seconds.toString(),padStart(2, "0");
 };
 
-const targetDate = new Date("2021-05-06 16:30:00");
+const targetDate = new Date("2020-08-19 23:59:00");
 updateTime(targetDate);
 setInterval(UpdateTime, 1000, targetDate);
