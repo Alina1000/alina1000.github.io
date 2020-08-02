@@ -1,15 +1,29 @@
-
+html,
 body {
- background-color: #000000;
-padding: 0px;
-margin: 0px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#gradient {
-width: 100%;
-height: 800px;
-padding: 0px;
-margin: 0px;
+body {
+  margin: auto;
+  font-size: 50vmin;
+  display: flex;
+  background: linear-gradient(130deg, orange, cyan);
+  background-clip: text;
+  color: transparent;
+
+  animation: changeBg 1s ease-in-out infinite alternate;
+}
+
+@keyframes changeBg {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .countdown {
