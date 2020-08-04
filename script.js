@@ -33,4 +33,4 @@ const updateTime = (targetDate) => {
 
 const targetDate = new Date("2020-08-19 23:59:00");
 updateTime(targetDate);
-setInterval(UpdateTime, 1000, targetDate);
+setInterval(UpdateTime, 1000);

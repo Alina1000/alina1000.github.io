@@ -1,3 +1,27 @@
+.countdown {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.box {
+  text-align: center;
+  min-width: 100px;
+}
+
+.time {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
 html,
 body {
   margin: 0;
@@ -23,27 +47,4 @@ body {
   100% {
     filter: hue-rotate(360deg);
   }
-}
-
-.countdown {
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-.box {
-  text-align: center;
-  min-width: 100px;
-}
-
-.time {
-  font-size: 4rem;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.label {
-  font-size: 1.2rem;
-  font-weight: 300;
 }
