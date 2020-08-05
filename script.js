@@ -1,3 +1,5 @@
+const targetDate = new Date("2020-08-19 23:59:00");
+  
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
@@ -24,7 +26,6 @@ const seconds = Math.floor(diff / 1000) % 60;
 };
 
 const updateTime = () => {
-  const targetDate = new Date("2020-08-19 23:59:00");
   const { days, hours, minutes, seconds } = getTimeDifference(targetDate);
   daysElement.innerText = days;
   hoursElement.innerText = hours.toString().padStart(2, "0");
