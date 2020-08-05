@@ -29,7 +29,7 @@ const updateTime = () => {
   daysElement.innerText = days;
   hoursElement.innerText = hours.toString().padStart(2, "0");
   minutesElement.innerText = minutes.toString().padStart(2, "0");
-  secondsElement.innerText = seconds.toString(),padStart(2, "0");
+  secondsElement.innerText = seconds.toString().padStart(2, "0");
 };
 
 updateTime();
