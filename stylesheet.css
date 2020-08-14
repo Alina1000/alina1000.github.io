@@ -11,13 +11,13 @@
 }
 
 .time {
-  font-size: 25vmax;
+  font-size: 4rem;
   font-weight: 500;
   color: #ffffff;
 }
 
 .label {
-  font-size: 10vmax;
+  font-size: 1.2rem;
   font-weight: 300;
   color: #ffffff;
 }
@@ -38,10 +38,10 @@ body {
 }
 
 @keyframes changeBg {
-  0% {
+  from {
     filter: hue-rotate(0deg);
   }
-  100% {
+  to {
     filter: hue-rotate(360deg);
   }
 }
