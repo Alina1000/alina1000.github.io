@@ -11,13 +11,13 @@
 }
 
 .time {
-  font-size: 4rem;
+  font-size: 25vmax;
   font-weight: 500;
   color: #ffffff;
 }
 
 .label {
-  font-size: 1.2rem;
+  font-size: 10vmax;
   font-weight: 300;
   color: #ffffff;
 }
@@ -33,7 +33,6 @@ body {
   margin: auto;
   display: flex;
   background: linear-gradient(130deg, orange, cyan);
-  background-clip: text;
   color: transparent;
   animation: changeBg 1s ease-in-out infinite alternate;
 }

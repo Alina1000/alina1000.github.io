@@ -1,11 +1,11 @@
 const targetDate = new Date("2020-08-19 23:59:00");
-  
+
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
 
-const getTimeDifference = (targetDate) => {
+getTimeDifference = (targetDate) => {
   const diff = targetDate.getTime() - Date.now();
 
   if (diff < 0) {
