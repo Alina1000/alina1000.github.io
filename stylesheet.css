@@ -33,15 +33,16 @@ body {
   margin: auto;
   display: flex;
   background: linear-gradient(130deg, orange, cyan);
+  background-clip: text;
   color: transparent;
   animation: changeBg 1s ease-in-out infinite alternate;
 }
 
 @keyframes changeBg {
-  from {
+  0% {
     filter: hue-rotate(0deg);
   }
-  to {
+  100% {
     filter: hue-rotate(360deg);
   }
 }
