@@ -1,5 +1,5 @@
 .countdown {
-  width: 500px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -16,7 +16,7 @@
   color: #ffffff;
 }
 .label {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 300;
   color: #ffffff;
 }
