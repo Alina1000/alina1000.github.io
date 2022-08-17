@@ -8,7 +8,6 @@
 .box {
   text-align: center;
   min-width: 50px;
-  margin: 10px;
 }
 
 .time {
@@ -20,6 +19,7 @@
   font-size: 3vw;
   font-weight: 300;
   color: #ffffff;
+  margin: 10px;
 }
 
 html,
