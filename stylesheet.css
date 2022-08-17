@@ -1,5 +1,5 @@
 .countdown {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -7,7 +7,7 @@
 
 .box {
   text-align: center;
-  min-width: 100px;
+  min-width: 50px;
 }
 
 .time {
