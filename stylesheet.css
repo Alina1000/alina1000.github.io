@@ -7,15 +7,15 @@
 
 .box {
   text-align: center;
-  margin: 1em;
+  margin: 1rem;
 }
 
 .time {
-  font-size: 4em;
+  font-size: 4rem;
   color: #ffffff;
 }
 .label {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ffffff;
 }
 
