@@ -7,6 +7,7 @@
 
 .box {
   text-align: center;
+  width: 12vw;
   min-width: 50px;
   margin: 30px;
 }
