@@ -7,13 +7,12 @@
 
 .box {
   text-align: center;
-  width: 12em;
   min-width: 50px;
   margin: 1em;
 }
 
 .time {
-  font-size: 110em;
+  font-size: 10em;
   font-weight: 500;
   color: #ffffff;
   margin: 0.5em:
