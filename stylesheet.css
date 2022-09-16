@@ -7,7 +7,7 @@
 
 .box {
   text-align: center;
-  min-width: 50px;
+  width: 10em;
 }
 
 .time {
