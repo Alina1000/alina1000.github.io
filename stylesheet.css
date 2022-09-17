@@ -7,17 +7,19 @@
 
 .box {
   text-align: center;
-  width: 20%;
-  margin: 2%;
+  min-width: 50px;
 }
 
 .time {
-  font-size: 2rem;
+  font-size: 10vw;
+  font-weight: 500;
   color: #ffffff;
 }
 .label {
-  font-size: 0.7rem;
+  font-size: 3vw;
+  font-weight: 300;
   color: #ffffff;
+  margin: 10px;
 }
 
 html,
